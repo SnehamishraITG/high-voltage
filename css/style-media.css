@@ -1,0 +1,149 @@
+/* responsive */
+@media (max-width:1240px) {
+     .header-inner {
+    GRID-TEMPLATE-COLUMNS: 8% 55%  10%;
+}
+
+.footer-inner {
+    grid-template-columns: 40% 40%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.copy-right-content {
+    padding: 0px 15px;
+}
+
+
+ul.collection-list {
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    text-align: center;
+}
+.insta-post {
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+.note-image {
+    max-height: 300px;
+    max-width: 433px;
+    object-fit: cover;
+}
+input {
+    background-color: #F7F7F7;
+    width:100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+}
+input[type="email"] {
+     padding: 10px 0px;
+    width:100%;
+}
+input#email {
+    width: 100%;
+}
+input[type="checkbox"]{
+ width:20px;
+}
+
+input#Birth {
+     padding: 10px 0px;
+    width:100%;
+}
+textarea {
+    width: 100%;
+    padding: 10px 0px;
+}
+.fileds {
+    flex-direction: column;
+}
+.rating {
+    text-align: center;
+}
+}
+@media(max-width:1000px){
+    .insta-post {
+    grid-template-columns:70%;
+}
+.header-inner {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    GRID-TEMPLATE-COLUMNS: 21%  24%;
+    gap: 7px;
+    padding-left: 13px;
+}
+nav.navigation-bar {
+    display: none;
+}
+}
+@media(max-width:870px){
+    ul.collection-list {
+    grid-template-columns: 40% 40%;
+}
+.text-content-inner {
+    width: 441.63px;
+}
+.footer-inner {
+    grid-template-columns: 84%;
+    text-align: center;
+    padding-left: 20px;
+}
+.data{
+    width: 90%;
+    margin:auto;
+}
+.insta-post {
+    grid-template-columns:90%;
+}
+.note-image {
+    max-height: 600px;
+    max-width: 600px;
+    object-fit: cover;
+}
+h1 {
+    font-size: 40px;
+    max-width: 556px;
+    margin: auto;
+}
+ul.collection-list {
+    grid-template-columns: 90%;
+}
+}
+@media(max-width:490px){
+    .text-content-inner {
+    width: 323.63px;
+}
+.connect-icon{
+    display:none;
+}
+.rating {
+    text-align:left;
+}
+.font-size-16px {
+    font-size: 12px;
+}
+h1 {
+    font-size: 32px;
+}
+.font-size-36px {
+    font-size: 20px;
+}
+a.button {
+    padding: 8px 8px;
+    font-size: 10px;
+}
+button.submit {
+    padding: 11px 20px;
+     font-size: 10px;
+}
+.copy-right-content {
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 19px;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+}
+}
